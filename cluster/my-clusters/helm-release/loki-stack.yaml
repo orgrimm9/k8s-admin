@@ -4,6 +4,8 @@ metadata:
   name: loki
   namespace: pod-info
 spec:
+  interval: 10m
+  timeout: 5m
   releaseName: loki
   chart:
     spec:
